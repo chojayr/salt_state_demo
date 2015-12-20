@@ -1,0 +1,5 @@
+base:
+  '*':
+    - nginx
+    - flask 
+    - webfile
