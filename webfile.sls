@@ -9,3 +9,9 @@ https://github.com/chojayr/flask_test.git:
     - require:
       - pkg: git
 
+run_flask:
+  cmd.run:
+    - name: python /tmp/webflask/flasktest.py &
+    - watch:
+      git: https://github.com/chojayr/flask_test.git
+
