@@ -8,9 +8,6 @@ https://github.com/chojayr/flask_test.git:
     - target: /tmp/webflask
     - require:
       - pkg: git
-
-python /tmp/webflask/flasktest.py &:
   cmd.run:
-    - watch:
-      git: https://github.com/chojayr/flask_test.git
+    - name: 'python /tmp/webflask/flasktest.py &'
 
