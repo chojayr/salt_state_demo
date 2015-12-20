@@ -10,7 +10,7 @@ webflask:
     - uid: 4000
     - gid: 4000
 
-https://llavina@bitbucket.org/llavina/flask_test.git:
+https://github.com/chojayr/flask_test.git:
   git.latest:
     - rev: master
     - target: /home/webflask
